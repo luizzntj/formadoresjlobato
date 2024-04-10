@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #cc0c0c;
     color: #fff;
     padding: 20px 0;
 }
@@ -53,7 +53,7 @@ section {
 }
 
 section h2 {
-    color: #333;
+    color: #b40c0c;
     margin-bottom: 10px;
 }
 
