@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luiz Imports</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Apple</h1>
+        <h1>Venda de Celulares</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <p>
-            O iPhone é uma linha de smartphones desenvolvidos pela empresa Apple Inc.
-            Eles executam o sistema operacional iOS, que é conhecido por sua simplicidade
-            e facilidade de uso.
-        </p>
-        <img src="iphone_image.jpg" alt="iPhone">
+    <section class="product-list">
+        <div class="product">
+            <img src="iphone_image.jpg" alt="iPhone">
+            <h2>iPhone</h2>
+            <p class="price">R$ 4.999,00</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="android_phone_image.jpg" alt="Android Phone">
+            <h2>Android Phone</h2>
+            <p class="price">R$ 3.499,00</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
     </section>
+    <footer>
+        <p>&copy; 2024 Venda de Celulares</p>
+    </footer>
 </body>
 </html>

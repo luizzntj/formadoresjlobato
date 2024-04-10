@@ -3,28 +3,75 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Cor de fundo */
-    color: #d31242; /* Cor do texto */
+    color: #dd1568; /* Cor do texto */
 }
 
 header {
-    background-color: #d81414; /* Cor de fundo do cabeçalho */
+    background-color: #d61414; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto do cabeçalho */
     padding: 20px;
     text-align: center;
 }
 
-h1 {
-    font-size: 36px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
     margin-top: 0;
 }
 
-section {
-    padding: 20px;
-    text-align: center;
+.product p.price {
+    font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
+.product a.btn {
+    display: block;
+    width: 100%;
+    background-color: #d81111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #da1313; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 20px;
 }
