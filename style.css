@@ -1,66 +1,30 @@
-/* Reset de estilos */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #d31242; /* Cor do texto */
 }
 
 header {
-    background-color: #cc0c0c;
-    color: #fff;
-    padding: 20px 0;
-}
-
-header h1 {
-    float: left;
-}
-
-nav ul {
-    float: right;
-    margin-top: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li:first-child {
-    margin-left: 0;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px 0;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-section h2 {
-    color: #b40c0c;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #d81414; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px;
     text-align: center;
 }
 
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
